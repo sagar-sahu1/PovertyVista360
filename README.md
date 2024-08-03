@@ -35,21 +35,21 @@ Open `index.html` in your browser to view the application.
 2. View Poverty Data: Click on the markers on the map to see detailed information about the poverty index in the selected country.
 3. Development Process:
    
- -> We defined the project goals and requirements, aiming to visualize poverty data interactively.
+    -> We defined the project goals and requirements, aiming to visualize poverty data interactively.
    
- -> We set up the project environment, configuring necessary files and directories.
+    -> We set up the project environment, configuring necessary files and directories.
  
- -> We designed the user interface, focusing on layout and styling for the map, country list, search bar, and header.
+    -> We designed the user interface, focusing on layout and styling for the map, country list, search bar, and header.
  
- -> We integrated OpenStreetMap with Leaflet.js for the interactive map functionality.
+    -> We integrated OpenStreetMap with Leaflet.js for the interactive map functionality.
  
- -> We implemented JavaScript functions to dynamically generate and filter the country list.
+    -> We implemented JavaScript functions to dynamically generate and filter the country list.
  
- -> We added features to display markers and popups on the map, providing detailed information about each country.
+    -> We added features to display markers and popups on the map, providing detailed information about each country.
  
- -> We tested the project for functionality and responsiveness, debugging any issues.
+    -> We tested the project for functionality and responsiveness, debugging any issues.
  
- -> Finally, we documented the usage for future reference and deployed the project.
+    -> Finally, we documented the usage for future reference and deployed the project.
  
 
 ### Contributors:
