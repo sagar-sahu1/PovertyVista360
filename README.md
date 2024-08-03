@@ -7,7 +7,6 @@ PovertyVista360 is an interactive web application designed to visualize poverty 
 - **Interactive Map**: Integrates OpenStreetMap to display poverty data geographically.
 - **Country List and Search**: Allows users to search for and select countries from a dynamic list.
 - **Markers and Popups**: Displays markers on the map with detailed information about the selected country's poverty index.
-- **Responsive Design**: Optimized for different screen sizes to ensure a seamless user experience on both desktops and mobile devices.
 - **Custom Styling**: Uses Leaflet and Leaflet.AwesomeMarkers for customized map markers.
 
 ## Getting Started
