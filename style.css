@@ -1,0 +1,155 @@
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+}
+
+/* Header */
+header {
+  background-color: #a76848;
+  color: white; 
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+}
+
+/* Main Container */
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: calc(100vh - 100px); 
+}
+
+
+/* Country List */
+.countryList {
+  width: 25%;
+  height: 100vh;
+  overflow: auto;
+  background: whitesmoke;
+  padding: 20px;
+}
+
+/* Map */
+#map {
+  width: 75%;
+  height: 50vh; 
+  flex-grow: 1;
+}
+
+.countryList h2 {
+  background-color: #A63C06;
+  color: whitesmoke;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  main {
+    flex-direction: row; 
+  }
+
+  .countryList {
+    width: 25%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #map {
+    width: 75%;
+    height: 100vh; 
+  }
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: brown;
+  border-radius: 0;
+}
+
+/* Search Bar */
+.countryList .search-container {
+  width: 100%;
+}
+
+#search-bar {
+  width: 100%; /* Ensure the search bar fits the width of the container */
+  box-sizing: border-box; /* Include padding and border in width */
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Country List Items */
+.countryList ul.list {
+  padding: 0 1rem;
+  list-style-type: none;
+}
+
+.country-item a:hover {
+  background-color: #f0f0f0; /* Highlight color for hovered country item */
+}
+
+.countryList .country-item {
+  margin: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+
+.countryList li:last-child .country-item {
+  border: none; /* Remove border for the last item */
+}
+
+.countryList a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #A63C06; /* Link color */
+  font-weight: 700;
+}
+
+/* Leaflet Popup Customization */
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  overflow: hidden;
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  margin: 0;
+}
+
+.leaflet-popup-content-wrapper h4 {
+  padding: 16px;
+  background: #A63C06; /* Popup header background color */
+  color: #fff; /* Popup header text color */
+  font-size: 18px;
+}
+
+.leaflet-popup-content-wrapper p {
+  padding: 0 16px;
+  font-size: 14px;
+  color: #A63C06; /* Popup content text color */
+  margin-bottom: 14px;
+}
+
+.leaflet-popup-content-wrapper label {
+  padding: 0 16px;
+  font-weight: bolder;
+  font-size: 14px;
+  color: #A63C06; /* Popup label text color */
+  margin-bottom: 0;
+}
