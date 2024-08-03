@@ -22,14 +22,13 @@ Follow these instructions to set up the project on your local machine.
 ### Installation
 
 **Clone the repository**:
- ```sh
-git clone https://github.com/yourusername/PovertyVista360.git
+git clone https://github.com/sagar-sahu1/PovertyVista360.git
 cd PovertyVista360
 
-Run the application:
+ ### Run the application:
 Open `index.html` in your browser to view the application.
 
-How to Use
+### How to Use
 1. Search for a Country:
 2. View Poverty Data: Click on the markers on the map to see detailed information about the poverty index in the selected country.
 3. Development Process:
@@ -42,7 +41,11 @@ How to Use
  -> We tested the project for functionality and responsiveness, debugging any issues.
  -> Finally, we documented the usage for future reference and deployed the project.
 
-Contributors:
-Swati Suman
-Sagar Sahu
-Sk Shahil Akhtar
+### Contributors:
+ Swati Suman 
+ 
+ Sagar Sahu
+ 
+ Sk Shahil Akhtar
+ ### ThankYou
+### Happy Coding!!!
