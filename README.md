@@ -23,6 +23,8 @@ Follow these instructions to set up the project on your local machine.
 
 **Clone the repository**:
 git clone https://github.com/sagar-sahu1/PovertyVista360.git
+
+
 cd PovertyVista360
 
  ### Run the application:
