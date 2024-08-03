@@ -1,3 +1,7 @@
+# Live url -
+
+https://charming-sopapillas-f826c7.netlify.app/
+
 # PovertyVista360
 
 PovertyVista360 is an interactive web application designed to visualize poverty data across different countries using OpenStreetMap. This project aims to provide valuable insights for NGOs, researchers, policymakers, and small social help groups working to address poverty issues.
